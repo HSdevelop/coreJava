@@ -15,10 +15,10 @@ public class DemoBox {
     double vol;
     
     mybox.width = 10;
-    mybox.heigth = 10;
+    mybox.heght = 10;
     mybox.depth = 10;
     
-    vol = mybox.depth*mybox.heigth*mybox.depth;
+    vol = mybox.depth*mybox.heght*mybox.depth;
         System.out.println("Обьем равен: "+vol);
     }
     

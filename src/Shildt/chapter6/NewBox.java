@@ -9,18 +9,20 @@ package Shildt.chapter6;
  *
  * @author LDI
  */
-public class Box {
-
-    double width;
-    double heght;
-    double depth;
-
-    //Отображение объема паралеллепипеда
-double volume(){
+public class NewBox {
     
-    return width*heght*depth;
+    double width;
+    double heigth;
+    double depth;
+    
+    double volume(){
+        return width*heigth*depth;
+    }
+    void setDim(double w,double h,double d){
+        width = w;
+        heigth = h;
+        depth = d;
+    }
+    
+    
 }
-
-}
-
-
