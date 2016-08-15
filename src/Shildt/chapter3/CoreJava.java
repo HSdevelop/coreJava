@@ -3,12 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package corejava.Chapter4;
+package Shildt.chapter3;
 
 /**
  *
  * @author HS
  */
-class c {
+public class CoreJava {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
     
 }

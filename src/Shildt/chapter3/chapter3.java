@@ -1,4 +1,4 @@
-package corejava;
+package Shildt.chapter3;
 
 public class chapter3 {
 
