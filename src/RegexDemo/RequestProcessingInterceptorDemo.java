@@ -14,7 +14,7 @@ import java.util.regex.Pattern;
     public static void main(String[] args) {
 //        String sPattern1 = "runtime/tasks/[0-9a-zA-Zа-я_А-Я]+$";
 //        String s1 = "runtime/tasks/sRequestBody";
-        String sPattern2 = "assignee"+":"+"[а-яА-Яa-z_A-z]+$";
+        String sPattern2 = "\"assignee\":[а-яА-Яa-z_A-z]+$\"";
 //         String sRequestBody = "assignee"+":"+"Zуп_Yин";
         String s1 ="assignee";
         String s2 = ":";
