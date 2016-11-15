@@ -3,14 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Automobile;
+package mas;
 
 /**
  *
  * @author HS
  */
-public class main {
+public class array {
+
     public static void main(String[] args) {
-        Car myCar = new Car(carBrand, colorCar, typeEngine, 0);
+        int[] array = {5, -1, 9, 164, 30, -72, 5};
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(" " + array[i]);
+            
+        }
     }
+
 }
